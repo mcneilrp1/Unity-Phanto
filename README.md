@@ -1,6 +1,6 @@
 # Project Phanto - Presence Platform Reference App
 
-![Phanto Banner](./Media/PhantoTitle.png 'Phanto')
+<img alt="Phanto Banner" src="./Media/PhantoTitle.png" title="&#39;Phanto&#39;" width="1999" height="1125"/>
 
 # Project overview
 
@@ -123,7 +123,7 @@ presented with prompts that allow them to rescan their room and grant
 permissions.
 
 |                      Missing scene prompt                       |                           Permission prompt                           |
-| :-------------------------------------------------------------: | :-------------------------------------------------------------------: |
+|:---------------------------------------------------------------:|:---------------------------------------------------------------------:|
 | ![RescanScene](./Media/NoSceneModel.png 'Missing scene prompt') | ![PermissionPrompt](./Media/PermissionPrompt.png 'Permission Prompt') |
 
 <br><br>
@@ -173,11 +173,11 @@ There is more information on the [example scenes below](#example-scenes).
 
 # Device Compatibility
 
-| Device    | Scene API | Color Passthrough | High res color | Scene Mesh | Haptics<sup>[1](#HapticsQuality)</sup> |
-| :-------- | :-------: | :---------------: | :------------: | :--------: | :------------------------------------: |
-| Quest 3   |    ✔️     |        ✔️         |       ✔️       |     ✔️     |                   ✔️                   |
-| Quest Pro |    ✔️     |        ✔️         |       ❌       |     ❌     |                   ✔️                   |
-| Quest 2   |    ✔️     |        ❌         |       ❌       |     ❌     |                   ✔️                   |
+| Device    | Scene API | Color Passthrough | High res color | Scene Mesh |     |     |     |
+|:----------|:---------:|:-----------------:|:--------------:|:----------:|:----|:----|:----|
+| Quest 3   |    ✔️     |        ✔️         |       ✔️       |     ✔️     |     |     |     |
+| Quest Pro |    ✔️     |        ✔️         |       ❌        |     ❌      |     |     |     |
+| Quest 2   |    ✔️     |         ❌         |       ❌        |     ❌      |     |     |     |
 
 <br>
 
@@ -338,8 +338,8 @@ Build, deploy, and run the game on your headset.
 ## Using Oculus Link (Only on Windows):
 
 1. Open the Oculus app.
-1. Run Oculus Link from the headset.
-1. Run Unity using the **Play** button. Make sure you select **Scene Api** as
+2. Run Oculus Link from the headset.
+3. Run Unity using the **Play** button. Make sure you select **Scene Api** as
    the **Scene Data Source** in the
    [**SceneDataLoaderSettings.asset**](Assets/Phanto/SceneDataLoaderSettings.asset)
    scriptable object:
@@ -408,7 +408,7 @@ can be found here. As with other scenes, the tutorial scene also uses the scene
 mesh and scene elements, managed by the **SceneDataLoader** component.
 
 |                     Welcome                     |                   Polterblast                   |                  Ecto Blaster                   |                    Phantoms                     |                   Start Game                    |
-| :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
+|:-----------------------------------------------:|:-----------------------------------------------:|:-----------------------------------------------:|:-----------------------------------------------:|:-----------------------------------------------:|
 | ![Tutorial1](./Media/Tutorial1.PNG 'Tutorial1') | ![Tutorial2](./Media/Tutorial2.PNG 'Tutorial2') | ![Tutorial3](./Media/Tutorial3.PNG 'Tutorial3') | ![Tutorial4](./Media/Tutorial4.PNG 'Tutorial4') | ![Tutorial5](./Media/Tutorial5.PNG 'Tutorial5') |
 
 <br><br>
@@ -436,7 +436,7 @@ care of loading the mesh and scene information. Other components in the scene
 are used to manage sound, GUI alerts, runtime assets, and game events.
 
 |                          Object Placement                           |                                AI Navigation                                 |
-| :-----------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+|:-------------------------------------------------------------------:|:----------------------------------------------------------------------------:|
 | ![Gameplay_Blaster](./Media/GameplayBlaster.gif 'Gameplay_Blaster') | ![Gameplay_Navigation](./Media/GameplayNavigation.gif 'Gameplay_Navigation') |
 
 <br><br>
